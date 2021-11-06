@@ -1,0 +1,20 @@
+li a {
+    color: #CAD3C8;
+    transition: 0.5s;
+} li a:hover {
+    color: #202020;
+}
+
+ul{
+    list-style: none; 
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+}
+
+.footer{
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+
+}
