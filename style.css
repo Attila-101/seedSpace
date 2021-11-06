@@ -69,6 +69,15 @@ h3 {
   margin-top: 0.5rem;
 }
 
+.forest-growing-h3 {
+  margin-top: 3rem;
+  margin-left: 4rem;
+}
+
+.trees-img {
+  margin-left: 7rem;
+}
+
 .scan-button {
   grid-column: 12 / 2;
   grid-row: 12 / 15;
