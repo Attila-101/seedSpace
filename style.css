@@ -51,12 +51,12 @@ h3 {
 
 .co2-h3 {
   margin-top: 3rem;
-  margin-left: 4rem;
+  margin-left: 4.5rem;
 }
 
 .co2-h2 {
   margin-top: 1rem;
-  margin-left: 7.5rem;
+  margin-left: 8rem;
 }
 
 .your-forest-button {
@@ -70,12 +70,12 @@ h3 {
 }
 
 .forest-growing-h3 {
-  margin-top: 3rem;
-  margin-left: 4rem;
+  margin-top: 2.5rem;
+  margin-left: 3.5rem;
 }
 
 .trees-img {
-  margin-left: 7rem;
+  margin-left: 7.5rem;
 }
 
 .scan-button {
@@ -86,6 +86,15 @@ h3 {
   box-shadow: -4px -4px 0px #3a5046;
   height: 21vh;
   margin-top: -0.5rem;
+}
+
+.scan-box-h3 {
+  margin-top: 2.5rem;
+  margin-left: 5.7rem;
+}
+
+.qrcode-icon {
+  margin-left: 7.7rem;
 }
 
 .horizontal-line {
