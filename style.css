@@ -11,6 +11,95 @@ main {
   margin: 0.625rem auto;
 }
 
+.tree-info-title-h2 {
+  grid-column: 2 / 12;
+  grid-row: 2 / 3;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.birch-info-button {
+  grid-column: 2 / 12;
+  grid-row: 4 / 7;
+  border-radius: 16px;
+  box-shadow: -4px -4px 0px #3a5046;
+  height: 21vh;
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.birch-icon {
+  width: 4.5rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.birch-title {
+  margin-top: -8rem;
+  margin-left: 8rem;
+}
+
+.birch-description {
+  margin-top: -1rem;
+  padding-left: 6rem;
+  padding-right: 1rem;
+}
+
+.pine-info-button {
+  grid-column: 2 / 12;
+  grid-row: 8 / 11;
+  border-radius: 16px;
+  box-shadow: -4px -4px 0px #3a5046;
+  height: 21vh;
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.pine-icon {
+  width: 4.5rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.pine-title {
+  margin-top: -7rem;
+  margin-left: 8rem;
+}
+
+.pine-description {
+  margin-top: -1rem;
+  padding-left: 6rem;
+  padding-right: 1rem;
+}
+
+.alaska-osp-button {
+  grid-column: 2 / 12;
+  grid-row: 12 / 15;
+  border-radius: 16px;
+  box-shadow: -4px -4px 0px #3a5046;
+  height: 21vh;
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.alaska-osp-icon {
+  width: 4.5rem;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+
+.alaska-osp-title {
+  margin-top: -7.5rem;
+  margin-left: 6rem;
+}
+
+.alaska-osp-description {
+  margin-top: -0.5rem;
+  padding-left: 6rem;
+  padding-right: 1rem;
+}
+
 .user-info {
   grid-column: 2 / 14;
   grid-row: 2 / 4;
@@ -41,7 +130,6 @@ h3 {
 .CO2-offset-button {
   grid-column: 12 / 2;
   grid-row: 4 / 7;
-  border: 2px solid black;
   border-radius: 16px;
   box-shadow: -4px -4px 0px #3a5046;
   height: 21vh;
@@ -62,7 +150,6 @@ h3 {
 .your-forest-button {
   grid-column: 12 / 2;
   grid-row: 8 / 11;
-  border: 2px solid black;
   border-radius: 16px;
   box-shadow: -4px -4px 0px #3a5046;
   height: 21vh;
@@ -81,7 +168,6 @@ h3 {
 .scan-button {
   grid-column: 12 / 2;
   grid-row: 12 / 15;
-  border: 2px solid black;
   border-radius: 16px;
   box-shadow: -4px -4px 0px #3a5046;
   height: 21vh;
