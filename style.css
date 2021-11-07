@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&display=swap");
+/*font-family: 'Bungee', cursive;
+font-family: 'Bungee Hairline', cursive;*/
+
 body {
   margin: 0;
 }
@@ -9,6 +13,91 @@ main {
   width: 23.438rem;
   height: 50.75rem;
   margin: 0.625rem auto;
+}
+
+.CO2-offset-button-on-scoreboard {
+  grid-column: 12 / 2;
+  grid-row: 6 / 8;
+  border-radius: 16px;
+  box-shadow: -4px -4px 0px #3a5046;
+  height: 15vh;
+  margin-top: 1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.co2-h3-on-scoreboard {
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+}
+
+.co2-h2-on-scoreboard {
+  margin-top: 1rem;
+  margin-left: 8rem;
+  font-family: "Bungee", cursive;
+  font-size: large;
+}
+
+.user-profile {
+  grid-column: 5 / 14;
+  grid-row: 2 / 14;
+}
+
+.user-img-score-board {
+  margin-left: 0.7rem;
+}
+
+.user-name {
+  margin-left: -1.2rem;
+  margin-top: 0;
+  color: #3a5046;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.profile-stats {
+  grid-column: 1 / 14;
+  grid-row: 4 / 7;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  margin-left: -1rem;
+}
+
+.profile-stats h1 {
+  font-size: medium;
+  font-weight: bold;
+  color: #3a5046;
+  margin-top: 1rem;
+}
+
+.profile-stats-description {
+  grid-column: 1 / 14;
+  grid-row: 5 / 7;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  margin-left: -1rem;
+}
+
+.profile-stats-description {
+  font-size: small;
+  margin-top: -0.5rem;
+  color: #3a5046;
+}
+
+.profile-stats-description-tree {
+  margin-left: 1.6rem;
+}
+
+.profile-stats-description-offset {
+  margin-left: 2rem;
+}
+
+.profile-stats-description-iceland {
+  margin-left: 1rem;
 }
 
 .collection-bin-icon {
